@@ -658,6 +658,11 @@ footer form {
 =================================*/ 
 
 /*media query starts*/
+@media only screen and (max-width: 1440px) {
+  .schedule {
+    padding-left: 0;
+  }
+}
 /*media query for 995px starts here*/
 @media only screen and (max-width: 995px) {
 header .wrapper,.counter-content,.fitness-info,.trainers-info,
@@ -683,7 +688,7 @@ header .wrapper,.counter-content,.fitness-info,.trainers-info,
   font-size: 50px;
 }
 
-.our-featured-services {
+.our-featured-services,.schedule {
   padding-left: 0;
 }
 
