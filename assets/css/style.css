@@ -570,7 +570,7 @@ header .wrapper {
 
 /* trainers styling ends  */
 /* our featured services styling starts */
-.our-featured-services {
+.our-featured-services .wrapper{
   padding-left: 16.3%;
   padding-bottom: 4%;
   margin-top: 10.3%;
