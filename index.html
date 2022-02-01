@@ -33,7 +33,10 @@
     <!--header section start-->
     <header>
       <div class="wrapper">
-        <h1 class="logo">Gymer</h1>
+        <h1 class="logo"><a href="#FIXME" title="Gymer" target="_blank">Gymer</a></h1>
+          <div class="hamburger-icon">
+          <span class="hamburger"></span>
+        </div>
         <nav class="menus">
           <ul>
             <li><a href="#FIXME" title="Home" target="_blank">Home</a></li>
@@ -67,29 +70,37 @@
               <figure class="counter-icon">
                 <img src="assets/pics/36x46.png" alt="Members">
               </figure>
+              <div class="counter-info">
               <span class="counting-number">2,260</span>
               <span class="counter-title"> Members</span>
             </div>
+            </div>
             <div class="counter-content">
               <figure class="counter-icon">
                 <img src="assets/pics/36x46.png" alt="Members">
               </figure>
+              <div class="counter-info">
               <span class="counting-number">210</span>
               <span class="counter-title"> Daily Visitors</span>
             </div>
-            <div class="counter-content">
-              <figure class="counter-icon">
-                <img src="assets/pics/36x46.png" alt="Members">
-              </figure>
-              <span class="counting-number">887</span>
-              <span class="counter-title"> Health Program</span>
             </div>
             <div class="counter-content">
               <figure class="counter-icon">
                 <img src="assets/pics/36x46.png" alt="Members">
               </figure>
+            <div class="counter-info">
+              <span class="counting-number">887</span>
+              <span class="counter-title"> Health Program</span>
+              </div>
+            </div>
+            <div class="counter-content">
+              <figure class="counter-icon">
+                <img src="assets/pics/36x46.png" alt="Members">
+              </figure>
+              <div class="counter-info">
               <span class="counting-number">1,920</span>
               <span class="counter-title"> Heart Beat</span>
+              </div>
             </div>
           </div>
           <ul class="fitness-info">
@@ -198,7 +209,7 @@
             <a href="#FIXME" title="Sunday" target="_blank">Sunday</a>
           </div>
           <div class="timetable">
-            <ul class="monday">
+            <ul class="daily-routine monday">
               <li class="activity">
                 <div class="activity-name">Gym</div>
                 <div class="activity-name">Meditation</div>
@@ -234,7 +245,7 @@
       <!-- schedule section ends  -->
       <!-- trainers section starts  -->
       <section class="trainers">
-        <div class="wrappers">
+        <div class="wrapper">
           <h2 class="headertext">Trainers</h2>
           <p class="trainers-description">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo numquam alias quis aut sint molestias
@@ -371,7 +382,7 @@
             </li>
           </ul>
         </div>
-          <div class="slider-controls">
+          <div class="slider-controls featured-slider">
             <span class="slider-button">button 1</span>
             <span class="slider-button">button 2</span>
           </div>
@@ -381,38 +392,45 @@
       <!-- contact-us section starts  -->
       <section class="contact-us">
         <div class="wrapper">
+          <div class="inner-wrapper-contact">
           <h2 class="headertext">Contact Us</h2>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia nemo libero nostrum fugit magni esse quae
             perspiciatis ratione
             autem.
           </p>
-          <form action="">
+          <form action="#FIXME" onsubmit="" class="contact-form">
             <div class="first-name">
-              <label for="name">first name:</label>
-              <input type="text" id="first name" placeholder="First name">
+              <label for="first-name">first name:</label>
+              <input type="text" id="first-name" placeholder="First name">
+              <span class="first-name-error"></span>
             </div>
             <div class="last-name">
-              <label for="name">last name:</label>
-              <input type="text" id="last name" placeholder="First name">
+              <label for="last-name">last name:</label>
+              <input type="text" id="last-name" placeholder="Last name">
+              <span class="last-name-wrroe"></span>
             </div>
             <div class="subject">
               <label for="subject">subject:</label>
               <input type="text" id="subject" placeholder="Subject">
+              <span class="subjecterror"></span>
             </div>
             <div class="email">
               <label for="email">email:</label>
               <input type="email" id="email" placeholder="email">
+              <span class="emailerror"></span>
             </div>
             <div class="message">
               <label for="message"></label>
-              <textarea cols="20" rows="30" id="message">Write your message here</textarea>
+              <textarea cols="20" rows="13" id="message">Write your message here</textarea>
+              <span class="messageerror"></span>
             </div>
             <div class="submit">
               <label for="submit"></label>
               <input type="submit" value="SEND MESSAGE" id="submit" class="submit-button">
             </div>
           </form>
+          </div>
         </div>
       </section>
       <!-- contact-us section ends  -->
@@ -422,6 +440,7 @@
     <!--footer section start-->
     <footer>
       <div class="wrapper">
+        <div class="inner-wrapper-footer">
         <ul class="footer-contents">
           <li class="about">
             <h2>ABOUT GYMER</h2>
@@ -448,15 +467,17 @@
               <div class="footer-email">
                 <label for="footer-email">Email:</label>
                 <input type="email" id="footer-email">
+                <span class="emailerror"></span>
               </div>
               <div class="subscription-button">
                 <label for="subscription-button">subscribe</label>
-                <input type="submit" value="SUBSCRIBE">
+                <input type="submit" value="SUBSCRIBE" id="subscription-button">
               </div>
             </form>
           </li>
         </ul>
-        <p class="footerbar">Copyright &copy; 2019 All rights reserved &#124; This tamplate is made with by Colorlib</p>
+        <p class="footerbar">Copyright &copy; 2019 All rights reserved &#124; This tamplate is made with by <a href="#FIXME" title="Colorlib" target="_blank" class="green-text">Colorlib</a></p>
+      </div>
       </div>
     </footer>
     <!--footer section end-->
