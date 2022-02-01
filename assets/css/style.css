@@ -8,13 +8,87 @@
    v2.0 | 20110126
    License: none (public domain)
    ========================================================================== */
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p,
-blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img,
-ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center,
-dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody,
-tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure,
-figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
   margin: 0;
   padding: 0;
   border: 0;
@@ -24,22 +98,35 @@ time, mark, audio, video {
 }
 
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
   display: block;
 }
 
 /* Force scrollbar */
-html { overflow-y: scroll; }
+html {
+  overflow-y: scroll;
+}
 
 /* Align radios and text inputs with their label */
 
-input[type='radio'] { vertical-align: text-bottom; }
+input[type="radio"] {
+  vertical-align: text-bottom;
+}
 
 /* Hand cursor on clickable input elements */
 label,
-input[type='button'],
-input[type='submit'],
+input[type="button"],
+input[type="submit"],
 button {
   cursor: pointer;
 }
@@ -50,7 +137,9 @@ strong {
   font-size: inherit;
 }
 
-em { font-style: italic; }
+em {
+  font-style: italic;
+}
 
 img {
   width: 100%;
@@ -66,8 +155,12 @@ sup {
   line-height: 0;
 }
 
-sup { top: -.7em; }
-sub { bottom: -.25em; }
+sup {
+  top: -0.7em;
+}
+sub {
+  bottom: -0.25em;
+}
 
 /* 1.2. Clear Fix
    ========================== */
@@ -78,8 +171,12 @@ sub { bottom: -.25em; }
   content: " ";
 }
 
-.cf:after { clear: both; }
-.cf { *zoom: 1; }
+.cf:after {
+  clear: both;
+}
+.cf {
+  *zoom: 1;
+}
 
 /*for all*/
 body {
@@ -87,9 +184,9 @@ body {
   font-family: sans-serif;
 }
 
-a { 
+a {
   display: inline-block;
-  text-decoration: none; 
+  text-decoration: none;
 }
 
 a:hover {
@@ -111,12 +208,12 @@ li {
 .headertext {
   font-size: 35px;
   font-weight: bold;
-  color: #48D493;
+  color: #48d493;
 }
 /*for wrapper*/
 .wrapper {
   max-width: 1519px;
-  width: 88.4%; 
+  width: 88.4%;
   margin: 0 auto;
 }
 
@@ -150,9 +247,9 @@ header .wrapper {
   font-weight: bold;
 }
 .logo a {
-color: #fff;
-font-size: 16px;
-font-weight: bold;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
 }
 
 .logo a:hover {
@@ -179,7 +276,7 @@ font-weight: bold;
   flex-basis: 44%;
   box-sizing: border-box;
   font-size: 14px;
-} 
+}
 
 .menus ul {
   display: flex;
@@ -212,7 +309,7 @@ font-weight: bold;
 }
 /*=================================
   Header styling ends here
-=================================*/  
+=================================*/
 
 /*=================================
   main styling starts here
@@ -227,7 +324,7 @@ font-weight: bold;
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
   text-align: center;
   color: #fff;
   font-size: 86px;
@@ -236,126 +333,127 @@ font-weight: bold;
 
 /* banner styling ends  */
 /* step up your fitness starts  */
-  .step-up-your-fitness {
-    padding-top: 4%;
-    padding-left: 16.2%;
-    color: #fff;
-  }
+.step-up-your-fitness {
+  padding-top: 4%;
+  padding-left: 16.2%;
+  color: #fff;
+}
 
-  .step-up-your-fitness h2 {
-    width: 62%;
-  }
+.step-up-your-fitness h2 {
+  width: 62%;
+}
 
-  .counter-icon {
-    width: 36px;
-    height: 46px;
-    margin-right: 12px;
-    display: inline-block;
-  }
+.counter-icon {
+  width: 36px;
+  height: 46px;
+  margin-right: 12px;
+  display: inline-block;
+}
 
-  .counter {
-    display: flex;
-  }
+.counter {
+  display: flex;
+}
 
-  .counter-content {
-    flex-basis: 19.8%;
-    display: flex;
-  }
+.counter-content {
+  flex-basis: 19.8%;
+  display: flex;
+}
 
-  .counting-number {
-    font-size: 32px;
-    font-weight: bold;
-  }
-  
-  .counter-title {
-    display: block;
-    font-size: 13px;
-  }
+.counting-number {
+  font-size: 32px;
+  font-weight: bold;
+}
 
-  .fitness-info {
-    margin-top: 9.3%;
-    display: flex;
-  }
+.counter-title {
+  display: block;
+  font-size: 13px;
+}
 
-  .fitness-info figure img {
-    box-shadow: 10px 10px #48D493;
-  }
+.fitness-info {
+  margin-top: 9.3%;
+  display: flex;
+}
 
-  .fitness-content {
-    flex-basis: 37.4%;
-  }
+.fitness-info figure img {
+  box-shadow: 10px 10px #48d493;
+}
 
-  .fitness-description {
-    width: 77%;
-    margin-top: 7%;
-    line-height: 24px;
-  }
+.fitness-content {
+  flex-basis: 37.4%;
+}
 
-  .get-in-touch {
-    padding: 16px 24px;
-    margin-top: 38px;
-    border: 1px solid #000;
-    border-radius: 3px;
-    background-color: #48D493;
-    color: #000;
-    font-size: 9px;
-    font-weight: bold;
-   
-  }
+.fitness-description {
+  width: 77%;
+  margin-top: 7%;
+  line-height: 24px;
+}
+
+.get-in-touch {
+  padding: 16px 24px;
+  margin-top: 38px;
+  border: 1px solid #000;
+  border-radius: 3px;
+  background-color: #48d493;
+  color: #000;
+  font-size: 9px;
+  font-weight: bold;
+}
 /* step up your fitness ends  */
 /* class section starts  */
-  .classes {
-    margin-top: 9.5%;
-    color: #fff;
-  }
-  
-  .classes h2,.classes-content {
-    margin:2.1% 0 0 17.2%;
-  }
+.classes {
+  margin-top: 9.5%;
+  color: #fff;
+}
 
-  .classes-content {
-    width: 33%;
-    line-height: 24px;
-  }
+.classes h2,
+.classes-content {
+  margin: 2.1% 0 0 17.2%;
+}
 
-  .classes-slider {
-    margin-top: 3.2%;
-  }
+.classes-content {
+  width: 33%;
+  line-height: 24px;
+}
 
-  .slider-content1 {
-    display: flex;
-  } 
+.classes-slider {
+  margin-top: 3.2%;
+}
 
-  .slider-content2,.slider-content3 {
-    display: none;
-  }
+.slider-content1 {
+  display: flex;
+}
 
-  .slider-controls .wrapper{
-    text-align: center;
-  }
+.slider-content2,
+.slider-content3 {
+  display: none;
+}
 
-  .slider-button {
-    display: inline-block;
-    text-indent: -9999px;
-  }
+.slider-controls .wrapper {
+  text-align: center;
+}
 
-  .slider-button::before {
-    content: "\f1db";
-    font-family: "fontAwesome";
-    float: right;
-    cursor: pointer;
-    font-size: 10px;
-    text-indent: 0;
-  }
+.slider-button {
+  display: inline-block;
+  text-indent: -9999px;
+}
 
-  .slider-button:hover::before {
-    border-radius: 100%;
-   background-color: #48D493;
-  }
+.slider-button::before {
+  content: "\f1db";
+  font-family: "fontAwesome";
+  float: right;
+  cursor: pointer;
+  font-size: 10px;
+  text-indent: 0;
+}
 
-  .slider-controls {
-    margin-top: 2.2%;
-  }
+.slider-button:hover::before {
+  border-radius: 100%;
+  background-color: #48d493;
+}
+
+.slider-controls {
+  margin-top: 2.2%;
+}
 
 /* class styling ends  */
 /* schedule styling starts  */
@@ -382,13 +480,13 @@ font-weight: bold;
 
 .days a {
   padding: 15px;
-  color: #48D493;
+  color: #48d493;
   font-size: 13px;
 }
 
 .days a:hover {
   border-radius: 3px;
-  background-color: #48D493;
+  background-color: #48d493;
   color: #fff;
 }
 
@@ -398,7 +496,8 @@ font-weight: bold;
   font-size: 13px;
 }
 
-.daily-routine div,.daily-routine a {
+.daily-routine div,
+.daily-routine a {
   padding: 20px 12px;
   height: 57px;
   border: 1px solid #fff;
@@ -407,24 +506,23 @@ font-weight: bold;
 
 .daily-routine a {
   display: block;
-  color: #48D493;
+  color: #48d493;
   text-align: center;
 }
 
 .activity div {
- width: 218px;
+  width: 218px;
 }
 
 .time div {
   width: 292px;
-
 }
 
 .trainer div {
   width: 218px;
 }
 
-.joining-action a{
+.joining-action a {
   width: 154px;
 }
 /* schedule styling ends  */
@@ -452,7 +550,7 @@ font-weight: bold;
 }
 
 .trainers-info figure {
-  box-shadow: 10px 10px #48D493;
+  box-shadow: 10px 10px #48d493;
 }
 
 .trainer-name {
@@ -505,11 +603,11 @@ font-weight: bold;
 
 .featured-services-slider-content1 li {
   padding: 58px 52px;
-  background-color: #48D493;
+  background-color: #48d493;
 }
 .service-title {
   margin-top: 23%;
-  display: block; 
+  display: block;
   font-size: 19px;
 }
 
@@ -524,67 +622,72 @@ font-weight: bold;
 }
 /* our featured services styliing ends  */
 /* contact us section starts  */
-  .contact-us {
-    color: #fff;
-  }
+.contact-us {
+  color: #fff;
+}
 
-  .contact-us .wrapper {
-    padding-bottom: 5.1%;
-  }
+.contact-us .wrapper {
+  padding-bottom: 5.1%;
+}
 
-  .inner-wrapper-contact {
-    width: 37.2%;
-    margin: auto;
-  }
-  .contact-us p {
-    margin-top: 3.3%;
-    font-size: 13px;
-  }
+.inner-wrapper-contact {
+  width: 37.2%;
+  margin: auto;
+}
+.contact-us p {
+  margin-top: 3.3%;
+  font-size: 13px;
+}
 
-  .contact-form {
-    margin-top: 8%;
-    display: flex;
-    flex-wrap: wrap;
-    row-gap: 15px;
-    justify-content: space-between;
-  }
+.contact-form {
+  margin-top: 8%;
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 15px;
+  justify-content: space-between;
+}
 
-  label {
-    display: none;
-  }
+label {
+  display: none;
+}
 
-  .first-name,.last-name {
-    flex-basis: 44.5%;
-  }
-  .subject,.email,.message {
-    flex-basis: 100%;
-  }
+.first-name,
+.last-name {
+  flex-basis: 44.5%;
+}
+.subject,
+.email,
+.message {
+  flex-basis: 100%;
+}
 
-  .contact-form input,.contact-form textarea {
-    width: 100%;
-  }
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+}
 
-  textarea,input{
-    padding-left: 10px;
-    border: 2px solid #fff;
-    background: #000;
-    color: #fff;
-    opacity: 0.8;
-  }
+textarea,
+input {
+  padding-left: 10px;
+  border: 2px solid #fff;
+  background: #000;
+  color: #fff;
+  opacity: 0.8;
+}
 
-  input {
-    padding: 6px 0 6px 10px;
-  }
+input {
+  padding: 6px 0 6px 10px;
+}
 
-  .submit-button {
-    padding: 15px 85px;
-    border: none;
-    border-radius: 3px;
-    background-color: #48D493;
-    color: #000;
-    font-size: 8px;
-    font-weight: bold;
-  }
+.submit-button {
+  padding: 15px 85px;
+  border: none;
+  border-radius: 3px;
+  background-color: #48d493;
+  color: #000;
+  font-size: 8px;
+  font-weight: bold;
+}
 /* contact us section ends  */
 /*=================================
   main styling ends here
@@ -595,7 +698,7 @@ font-weight: bold;
 =================================*/
 footer {
   color: #fff;
-} 
+}
 
 .inner-wrapper-footer {
   width: 65.3%;
@@ -628,7 +731,7 @@ footer p {
 .links a {
   margin-bottom: 15px;
   display: block;
-  color: #48D493;
+  color: #48d493;
   font-size: 14px;
 }
 
@@ -643,11 +746,13 @@ footer form {
   padding: 8px 17px 8px 5px;
 }
 
-.subscription-button input[type="submit"]{
-  padding: 11px 12px;
-  background: #48D493;
-    font-size: 9px;
-    font-weight: bold;
+.subscription-button input[type="submit"] {
+  padding: 13px 12px;
+  border: none;
+  background: #48d493;
+  color: #000;
+  font-size: 9px;
+  font-weight: bold;
 }
 
 .footerbar {
@@ -658,11 +763,11 @@ footer form {
 }
 
 .green-text {
-  color: #48D493;
+  color: #48d493;
 }
- /*=================================
+/*=================================
   footer styling ends here
-=================================*/ 
+=================================*/
 
 /*media query starts*/
 @media only screen and (max-width: 1440px) {
@@ -672,59 +777,71 @@ footer form {
 }
 /*media query for 995px starts here*/
 @media only screen and (max-width: 995px) {
-header .wrapper,.counter-content,.fitness-info,.trainers-info,
-.contact-form,.footer-contents,.footer-form {
-  flex-direction: column;
-  align-items: center;
-  row-gap: 20px;
-}
+  header .wrapper,
+  .counter-content,
+  .fitness-info,
+  .trainers-info,
+  .contact-form,
+  .footer-contents,
+  .footer-form {
+    flex-direction: column;
+    align-items: center;
+    row-gap: 20px;
+  }
 
-.counter {
-  flex-wrap: wrap;
-  row-gap: 20px;
-  align-items: center;
-}
+  .counter {
+    flex-wrap: wrap;
+    row-gap: 20px;
+    align-items: center;
+  }
 
-.contact {
-  margin: 0;
-}
+  .contact {
+    margin: 0;
+  }
 
-.banner .wrapper h2 {
-  width: 100%;
-  top: 85%;
-  font-size: 50px;
-}
+  .banner .wrapper h2 {
+    width: 100%;
+    top: 85%;
+    font-size: 50px;
+  }
 
-.our-featured-services,.schedule {
-  padding-left: 0;
-}
+  .our-featured-services,
+  .schedule {
+    padding-left: 0;
+  }
 
-.featured-services-slider-content1,.featured-services-slider-content1 li,.featured-slider {
-  width: 100%;
-  padding: 0;
-  text-align: center;
-}
+  .featured-services-slider-content1,
+  .featured-services-slider-content1 li,
+  .featured-slider {
+    width: 100%;
+    padding: 0;
+    text-align: center;
+  }
 
-.featured-services-slider-content1 li figure {
-  margin: auto;
-}
+  .featured-services-slider-content1 li figure {
+    margin: auto;
+  }
 
-.classes-content,.schedule-description,.trainers-description,.featured-services-description {
-  width: 80%;
-}
+  .classes-content,
+  .schedule-description,
+  .trainers-description,
+  .featured-services-description {
+    width: 80%;
+  }
 
-.contact-us p {
-  width: 100%;
-}
+  .contact-us p {
+    width: 100%;
+  }
 
-.daily-routine div,.daily-routine a {
-  width: 100%;
-}
+  .daily-routine div,
+  .daily-routine a {
+    width: 100%;
+  }
 
-.days {
-  margin-left: 0;
+  .days {
+    margin-left: 0;
+  }
 }
-}  
 
 @media only screen and (max-width: 768px) {
   .menus {
@@ -752,7 +869,7 @@ header .wrapper,.counter-content,.fitness-info,.trainers-info,
     font-size: 30px;
   }
 
-  .counter-content{
+  .counter-content {
     flex-basis: 50%;
   }
 }
