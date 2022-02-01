@@ -602,6 +602,7 @@ header .wrapper {
 }
 
 .featured-services-slider-content1 li {
+  flex-basis: 18.5%;
   padding: 58px 52px;
   background-color: #48d493;
 }
