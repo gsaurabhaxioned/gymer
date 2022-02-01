@@ -540,7 +540,7 @@ header .wrapper {
 
 .trainers-description {
   width: 33%;
-  margin-top: 2%;
+  margin-top: 17px;
 }
 
 .trainers-info {
@@ -873,5 +873,11 @@ footer form {
 
   .counter-content {
     flex-basis: 50%;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .schedule ul li {
+    font-size: 8px;
   }
 }
