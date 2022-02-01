@@ -335,8 +335,11 @@ header .wrapper {
 /* step up your fitness starts  */
 .step-up-your-fitness {
   padding-top: 4%;
-  padding-left: 16.2%;
   color: #fff;
+}
+
+.step-up-your-fitness .wrapper {
+  width: 57.5%;
 }
 
 .step-up-your-fitness h2 {
@@ -404,10 +407,13 @@ header .wrapper {
   margin-top: 9.5%;
   color: #fff;
 }
+.classes .wrapper {
+  width: 58%;
+}
 
 .classes h2,
 .classes-content {
-  margin: 2.1% 0 0 17.2%;
+  margin: 2.1% 0 0 0;
 }
 
 .classes-content {
@@ -458,9 +464,12 @@ header .wrapper {
 /* class styling ends  */
 /* schedule styling starts  */
 .schedule {
-  padding-left: 16.3%;
   margin-top: 9.4%;
   background-color: #000;
+}
+
+.schedule .wrapper {
+  width: 58.1%;
 }
 
 .schedule-description {
@@ -528,9 +537,11 @@ header .wrapper {
 /* schedule styling ends  */
 /* trainers styling starts  */
 .trainers {
-  padding-left: 16.3%;
   margin-top: 10.3%;
   color: #fff;
+}
+.trainers .wrapper {
+  width: 58.1%;
 }
 
 .trainer2 figure {
@@ -543,7 +554,7 @@ header .wrapper {
 }
 
 .trainers-info {
-  width: 69.8%;
+  width: 100%;
   margin-top: 4.2%;
   display: flex;
   column-gap: 55px;
@@ -571,11 +582,10 @@ header .wrapper {
 /* trainers styling ends  */
 /* our featured services styling starts */
 .our-featured-services .wrapper{
-  padding-left: 21.1%;
+  width: 58.1%;
   padding-bottom: 4%;
   margin-top: 10.3%;
   color: #fff;
-  box-sizing: border-box;
 }
 
 .featured-services-description {
@@ -588,8 +598,9 @@ header .wrapper {
 }
 
 .featured-services-slider-content1 {
-  width: 69.8%;
+  width: 100%;
   display: flex;
+  justify-content: center;
   column-gap: 25px;
 }
 
@@ -619,7 +630,7 @@ header .wrapper {
 }
 
 .featured-slider {
-  width: 69.8%;
+  width: 100%;
   text-align: center;
 }
 /* our featured services styliing ends  */
@@ -629,13 +640,10 @@ header .wrapper {
 }
 
 .contact-us .wrapper {
+  width: 37.2%;
   padding-bottom: 5.1%;
 }
 
-.inner-wrapper-contact {
-  width: 37.2%;
-  margin: auto;
-}
 .contact-us p {
   margin-top: 3.3%;
   font-size: 13px;
@@ -702,9 +710,8 @@ footer {
   color: #fff;
 }
 
-.inner-wrapper-footer {
-  width: 65.3%;
-  margin: auto;
+footer .wrapper {
+  width: 58.1%;
 }
 footer p {
   font-size: 12px;
@@ -771,12 +778,12 @@ footer form {
   footer styling ends here
 =================================*/
 
-/*media query starts*/
+/* media query starts
 @media only screen and (max-width: 1440px) {
   .schedule {
-    /* padding-left: 0; */
+    padding-left: 0;
   }
-}
+} */
 /*media query for 995px starts here*/
 @media only screen and (max-width: 995px) {
   header .wrapper,
@@ -805,14 +812,6 @@ footer form {
     width: 100%;
     top: 85%;
     font-size: 50px;
-  }
-
-  .our-featured-services .wrapper {
-    padding-left: 21%;
-  }
-  
-  .schedule {
-    padding-left: 16%;
   }
 
   .featured-services-slider-content1,
