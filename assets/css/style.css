@@ -190,7 +190,7 @@ a {
 }
 
 a:hover {
-  transform: scale(1.2);
+  color: #ffa500;
   transition: transform 1s ease-in-out;
 }
 
@@ -252,9 +252,6 @@ header .wrapper {
   font-weight: bold;
 }
 
-.logo a:hover {
-  transform: scale(1);
-}
 .hamburger,
 .cross {
   display: none;
@@ -373,7 +370,7 @@ header .wrapper {
 }
 
 .fitness-info {
-  margin-top: 9.3%;
+  margin-top: 95px;
   display: flex;
 }
 
@@ -387,7 +384,7 @@ header .wrapper {
 
 .fitness-description {
   width: 77%;
-  margin-top: 7%;
+  margin-top: 24px;
   line-height: 24px;
 }
 
@@ -404,7 +401,7 @@ header .wrapper {
 /* step up your fitness ends  */
 /* class section starts  */
 .classes {
-  margin-top: 9.5%;
+  margin-top: 145px;
   color: #fff;
 }
 .classes .wrapper {
@@ -413,7 +410,7 @@ header .wrapper {
 
 .classes h2,
 .classes-content {
-  margin: 2.1% 0 0 0;
+  margin-top: 26px;
 }
 
 .classes-content {
@@ -422,7 +419,7 @@ header .wrapper {
 }
 
 .classes-slider {
-  margin-top: 3.2%;
+  margin-top: 48px;
 }
 
 .slider-content1 {
@@ -434,7 +431,7 @@ header .wrapper {
   display: none;
 }
 
-.slider-controls .wrapper {
+.slider-controls {
   text-align: center;
 }
 
@@ -458,13 +455,13 @@ header .wrapper {
 }
 
 .slider-controls {
-  margin-top: 2.2%;
+  margin-top: 34px;
 }
 
 /* class styling ends  */
 /* schedule styling starts  */
 .schedule {
-  margin-top: 9.4%;
+  margin-top: 144px;
   background-color: #000;
 }
 
@@ -474,70 +471,63 @@ header .wrapper {
 
 .schedule-description {
   width: 33%;
-  margin-top: 2.5%;
+  margin-top: 23px;
   color: #fff;
   line-height: 24px;
 }
 
-.timetable {
-  margin-top: 2%;
-}
-
 .days {
-  margin: 4.1% 0 0 16.7%;
+  margin: 36px 0 36px 181px
 }
 
-.days a {
+.days span {
   padding: 15px;
   color: #48d493;
   font-size: 13px;
+  cursor: pointer;
 }
 
-.days a:hover {
+.days span:hover {
   border-radius: 3px;
   background-color: #48d493;
   color: #fff;
 }
 
-.daily-routine {
+.schedule ul {
+  width: 100%;
   display: flex;
   color: #fff;
-  font-size: 13px;
 }
 
-.daily-routine div,
-.daily-routine a {
-  padding: 20px 12px;
-  height: 57px;
+.schedule ul li {
+  padding: 17px 0 17px 10px;
   border: 1px solid #fff;
-  box-sizing: border-box;
+}
+.timetable {
+  margin-top: 46px;
 }
 
-.daily-routine a {
-  display: block;
-  color: #48d493;
+.activity {
+  width: 24%;
+}
+
+.time {
+  width: 33%;
+}
+
+.trainer {
+  width: 24.5%;
+}
+
+.joining-action {
+  width: 17.3%;
   text-align: center;
 }
 
-.activity div {
-  width: 218px;
-}
-
-.time div {
-  width: 292px;
-}
-
-.trainer div {
-  width: 218px;
-}
-
-.joining-action a {
-  width: 154px;
-}
 /* schedule styling ends  */
 /* trainers styling starts  */
 .trainers {
-  margin-top: 10.3%;
+  margin-top: 156px;
   color: #fff;
 }
 .trainers .wrapper {
@@ -545,7 +535,7 @@ header .wrapper {
 }
 
 .trainer2 figure {
-  margin-top: 14%;
+  margin-top: 36px;
 }
 
 .trainers-description {
@@ -744,6 +734,10 @@ footer p {
   font-size: 14px;
 }
 
+.links a:hover {
+  color: #ffa500;
+}
+
 .footer-contents p {
   margin-top: 7%;
 }
@@ -837,13 +831,17 @@ footer form {
     width: 100%;
   }
 
-  .daily-routine div,
-  .daily-routine a {
+  .schedule ul li {
     width: 100%;
+    font-size: 12px;
   }
 
   .days {
     margin-left: 0;
+  }
+  .days span {
+    padding: 8px 0;
+    font-size: 10px;
   }
 }
 
