@@ -806,9 +806,12 @@ footer form {
     font-size: 50px;
   }
 
-  .our-featured-services,
+  .our-featured-services .wrapper {
+    padding-left: 21%;
+  }
+  
   .schedule {
-    padding-left: 0;
+    padding-left: 16%;
   }
 
   .featured-services-slider-content1,
